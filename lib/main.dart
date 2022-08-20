@@ -1,4 +1,5 @@
-import 'package:first_flutter_app/pages/homePage.dart';
+import 'package:first_flutter_app/pages/CopyServicePage.dart';
+import 'package:first_flutter_app/pages/LoginPage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class myApp extends StatelessWidget {
   Widget build(BuildContext buildContext) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: CopyServicePage(),
     );
   }
 }
